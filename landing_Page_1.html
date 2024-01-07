@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0%;
+            width: 100%;
+        }
+
+        .nav {width: 100%;
+            display: flex;
+            background-color: pink;
+            padding: 20px;
+            position: fixed;
+        }
+
+        li {
+            list-style: none;
+        }
+
+        li a {
+            text-decoration: none;
+            padding: 20px;
+        }
+        img{
+            width: 100%;
+        }
+       .h_p{
+              text-align: center;
+        }
+        .image-container {
+  position: relative;
+  display: inline-block;
+}
+
+.image-container img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay-text {
+  position: absolute;
+  top: 50%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  background-color: #000000; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 20px; 
+  text-align: center
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">BAND</a></li>
+        <li><a href="#">TOUR</a></li>
+        <li><a href="#">CONTACT</a></li>
+        <li><a href="#">MORE</a></li>
+    </div>
+    <section>
+    <div class="image_container">
+        <div>
+    <img src="https://www.w3schools.com/w3images/chicago.jpg" alt="">
+</div>
+<div class="overlay-text">
+    <h1>New York</h1>
+    <p>The atmosphare besr time New York is best.</p>
+</div>
+</div>
+</section>
+</body>
+
+</html>
